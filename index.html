@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        header img{
+            width: 150px;
+        }
+
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+            transition: 0.15s;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        section img {
+            width: 250px;
+            border-radius: 15px;
+        }
+
+        .left img {
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        .left {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right {
+            width: 50%;
+        }
+
+        .right h1 {
+            font-size: 45px;
+            color:rgb(54, 47, 47)
+        }
+
+        .right p {
+            font-size: 20px;
+            color: #222;
+        }
+
+        button {
+            margin-right: 15px;
+            color: #fff;
+            font-size: 16px;
+            background-color: blueviolet;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #bbb;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .footer-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .one img {
+             width: 150px;
+        }
+
+        .two ul li a{
+              text-decoration:none;
+              color: red;
+              font-size: 16px;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        form-input {
+            width: 120px;
+            margin-bottom: 6px;
+        }
+
+        form button {
+            color: #fff;
+            font-size: 16px;
+            background-color: blue;
+            padding: 7px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.15s;
+        }
+
+        form button:hover {
+            background-color: #fff;
+            color: blue;
+        }
+
+        .copyright {
+            align-items: center;
+            font-size: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+<body>
+   <!-- Header Start -->
+    <header>
+        <img src="gomycodeLogo.svg" alt="Logo">
+        <nav>
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Our works</a>
+            <a href="">Contacts</a>   
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Section Start -->
+    <section>
+        <div class="left">
+            <img src="black person.jpeg" alt="person">
+        </div>
+        <div class="right">
+            <h1>Take your first Step.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe perferendis non rerum ducimus laboriosam nisi officiis unde odit magni quam, earum voluptates consequatur exercitationem tempore!</p>
+         <div>
+            <button>Portfolio</button>
+            <button>Contact Me</button>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Main section End -->
+
+    <!-- Footer Start -->
+   <footer>
+    <div class="footer-main">
+        <div class="one">
+            <img src="gomycodeLogo.svg" alt="footer-logo">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, suscipit.</p>
+        </div>
+        <div class="two">
+            <ul>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Hackerspace</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+        <div class="three">
+            <form>
+                <label for="">Name</label>
+                <input type="text" placeholder="Name..."><br>
+                <input type="email" placeholder="Email..."><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright&copy;2024 GoMYCODE.KE</p>
+    </div>
+   </footer>
+    <!--Footer End  -->
+</body>
+</html>
